@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C3D92611DE2015A008F8543 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D92601DE2015A008F8543 /* ReviewViewController.swift */; };
+		2C3D92631DE202CF008F8543 /* MovieSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D92621DE202CF008F8543 /* MovieSearchViewController.swift */; };
+		2C3D92651DE203F4008F8543 /* MovieResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D92641DE203F4008F8543 /* MovieResultsViewController.swift */; };
+		2C3D92671DE20776008F8543 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D92661DE20776008F8543 /* Movie.swift */; };
+		2C3D92691DE21DF3008F8543 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D92681DE21DF3008F8543 /* SwiftyJSON.swift */; };
+		2C3D926B1DE21E4B008F8543 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D926A1DE21E4B008F8543 /* GlobalConstants.swift */; };
 		2C66EE771DE131C400A5DDF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C66EE761DE131C400A5DDF0 /* AppDelegate.swift */; };
-		2C66EE791DE131C400A5DDF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C66EE781DE131C400A5DDF0 /* ViewController.swift */; };
 		2C66EE7C1DE131C400A5DDF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C66EE7A1DE131C400A5DDF0 /* Main.storyboard */; };
 		2C66EE7F1DE131C400A5DDF0 /* BCS410FinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C66EE7D1DE131C400A5DDF0 /* BCS410FinalProject.xcdatamodeld */; };
 		2C66EE811DE131C400A5DDF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C66EE801DE131C400A5DDF0 /* Assets.xcassets */; };
 		2C66EE841DE131C400A5DDF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C66EE821DE131C400A5DDF0 /* LaunchScreen.storyboard */; };
 		2C66EE8F1DE131C400A5DDF0 /* BCS410FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C66EE8E1DE131C400A5DDF0 /* BCS410FinalProjectTests.swift */; };
 		2C66EE9A1DE131C500A5DDF0 /* BCS410FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C66EE991DE131C500A5DDF0 /* BCS410FinalProjectUITests.swift */; };
+		2C66EEAB1DE131F100A5DDF0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C66EEAA1DE131F100A5DDF0 /* SWRevealViewController.m */; };
+		2C66EEDF1DE1336F00A5DDF0 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C66EEDB1DE1336F00A5DDF0 /* MenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C3D92601DE2015A008F8543 /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		2C3D92621DE202CF008F8543 /* MovieSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieSearchViewController.swift; sourceTree = "<group>"; };
+		2C3D92641DE203F4008F8543 /* MovieResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieResultsViewController.swift; sourceTree = "<group>"; };
+		2C3D92661DE20776008F8543 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		2C3D92681DE21DF3008F8543 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		2C3D926A1DE21E4B008F8543 /* GlobalConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
 		2C66EE731DE131C400A5DDF0 /* BCS410FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BCS410FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C66EE761DE131C400A5DDF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C66EE781DE131C400A5DDF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2C66EE7B1DE131C400A5DDF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C66EE7E1DE131C400A5DDF0 /* BCS410FinalProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BCS410FinalProject.xcdatamodel; sourceTree = "<group>"; };
 		2C66EE801DE131C400A5DDF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +61,10 @@
 		2C66EE951DE131C500A5DDF0 /* BCS410FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCS410FinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C66EE991DE131C500A5DDF0 /* BCS410FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCS410FinalProjectUITests.swift; sourceTree = "<group>"; };
 		2C66EE9B1DE131C500A5DDF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C66EEA81DE131F000A5DDF0 /* BCS410FinalProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BCS410FinalProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		2C66EEA91DE131F100A5DDF0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		2C66EEAA1DE131F100A5DDF0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		2C66EEDB1DE1336F00A5DDF0 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +95,7 @@
 		2C66EE6A1DE131C400A5DDF0 = {
 			isa = PBXGroup;
 			children = (
+				2C66EEA71DE131E400A5DDF0 /* SWRevealViewController */,
 				2C66EE751DE131C400A5DDF0 /* BCS410FinalProject */,
 				2C66EE8D1DE131C400A5DDF0 /* BCS410FinalProjectTests */,
 				2C66EE981DE131C500A5DDF0 /* BCS410FinalProjectUITests */,
@@ -100,8 +117,14 @@
 			isa = PBXGroup;
 			children = (
 				2C66EE761DE131C400A5DDF0 /* AppDelegate.swift */,
-				2C66EE781DE131C400A5DDF0 /* ViewController.swift */,
+				2C3D92661DE20776008F8543 /* Movie.swift */,
+				2C66EEDB1DE1336F00A5DDF0 /* MenuController.swift */,
+				2C3D92601DE2015A008F8543 /* ReviewViewController.swift */,
 				2C66EE7A1DE131C400A5DDF0 /* Main.storyboard */,
+				2C3D92621DE202CF008F8543 /* MovieSearchViewController.swift */,
+				2C3D926A1DE21E4B008F8543 /* GlobalConstants.swift */,
+				2C3D92641DE203F4008F8543 /* MovieResultsViewController.swift */,
+				2C3D92681DE21DF3008F8543 /* SwiftyJSON.swift */,
 				2C66EE801DE131C400A5DDF0 /* Assets.xcassets */,
 				2C66EE821DE131C400A5DDF0 /* LaunchScreen.storyboard */,
 				2C66EE851DE131C400A5DDF0 /* Info.plist */,
@@ -126,6 +149,16 @@
 				2C66EE9B1DE131C500A5DDF0 /* Info.plist */,
 			);
 			path = BCS410FinalProjectUITests;
+			sourceTree = "<group>";
+		};
+		2C66EEA71DE131E400A5DDF0 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2C66EEA91DE131F100A5DDF0 /* SWRevealViewController.h */,
+				2C66EEAA1DE131F100A5DDF0 /* SWRevealViewController.m */,
+				2C66EEA81DE131F000A5DDF0 /* BCS410FinalProject-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +295,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C66EE791DE131C400A5DDF0 /* ViewController.swift in Sources */,
+				2C66EEDF1DE1336F00A5DDF0 /* MenuController.swift in Sources */,
+				2C3D92611DE2015A008F8543 /* ReviewViewController.swift in Sources */,
+				2C3D926B1DE21E4B008F8543 /* GlobalConstants.swift in Sources */,
 				2C66EE7F1DE131C400A5DDF0 /* BCS410FinalProject.xcdatamodeld in Sources */,
 				2C66EE771DE131C400A5DDF0 /* AppDelegate.swift in Sources */,
+				2C66EEAB1DE131F100A5DDF0 /* SWRevealViewController.m in Sources */,
+				2C3D92631DE202CF008F8543 /* MovieSearchViewController.swift in Sources */,
+				2C3D92671DE20776008F8543 /* Movie.swift in Sources */,
+				2C3D92651DE203F4008F8543 /* MovieResultsViewController.swift in Sources */,
+				2C3D92691DE21DF3008F8543 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,10 +446,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BCS410FinalProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BMonaghan.BCS410FinalProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BCS410FinalProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -417,10 +461,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BCS410FinalProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BMonaghan.BCS410FinalProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BCS410FinalProject-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -491,6 +538,7 @@
 				2C66EEA01DE131C500A5DDF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C66EEA11DE131C500A5DDF0 /* Build configuration list for PBXNativeTarget "BCS410FinalProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +547,7 @@
 				2C66EEA31DE131C500A5DDF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C66EEA41DE131C500A5DDF0 /* Build configuration list for PBXNativeTarget "BCS410FinalProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +556,7 @@
 				2C66EEA61DE131C500A5DDF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
